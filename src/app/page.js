@@ -26,7 +26,7 @@ export default function Home() {
               :
                 <div>
                   <div className="text-[var(--dark-blue)]">Success! Thanks for submitting</div>
-                  <button onClick={() => setSubmitted(false)} className="bg-[var(--green)] mt-5 rounded w-60 h-12 font-bold shadow-(--gshadow) lg:w-full hover:bg-[var(--green-shadow)]">Fill again</button>
+                  <button onClick={() => setSubmitted(false)} className="bg-[var(--green)] mt-5 mb-5 rounded w-60 h-12 font-bold shadow-(--gshadow) lg:w-full hover:bg-[var(--green-shadow)]">Fill again</button>
                 </div>
               }
             </div>
