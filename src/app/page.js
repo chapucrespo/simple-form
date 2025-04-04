@@ -1,8 +1,8 @@
 export default function Home() {
   return ( 
       <main className="flex flex-col lg:flex-row lg:w-screen lg:justify-center">
-        <div className="flex flex-col justify-center lg:w-170 lg:text-left">
-          <p className="text-2xl font-bold lg:text-6xl">Learn to code by watching others</p>
+        <div className="flex flex-col justify-center lg:w-150 lg:text-left">
+          <p className="text-2xl font-bold lg:text-5xl">Learn to code by watching others</p>
           <p className="lg:mt-4">See how experienced developers solve problems in real-time. Watching scripted tutorials is great, but understanding how developers think is invaluable. </p>
         </div>
         <div className="lg:w-140">
