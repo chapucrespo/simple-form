@@ -18,8 +18,8 @@ export default function Home() {
                 <form action={() => setSubmitted(true)}>
                   <input type="text" name="name" placeholder="First Name" required className="text-black border w-60 lg:w-full p-3 mt-3 border-[var(--grayish-blue)] rounded"></input>
                   <input type="text" name="lastName" placeholder="Last Name" required className="text-black border w-60 lg:w-full p-3 mt-2 border-[var(--grayish-blue)] rounded"></input>
-                  <input type="text" name="email" required placeholder="Email" className="text-black border w-60 lg:w-full p-3 mt-2 border-[var(--grayish-blue)] rounded"></input>
-                  <input type="text" name="password" required placeholder="Password" className="text-black border w-60 lg:w-full p-3 mt-2 border-[var(--grayish-blue)] rounded"></input>
+                  <input type="email" name="email" required placeholder="Email" className="text-black border w-60 lg:w-full p-3 mt-2 border-[var(--grayish-blue)] rounded"></input>
+                  <input type="password" name="password" required placeholder="Password" className="text-black border w-60 lg:w-full p-3 mt-2 border-[var(--grayish-blue)] rounded"></input>
                   <button type="submit" className="bg-[var(--green)] mt-5 rounded w-60 h-12 font-bold shadow-(--gshadow) lg:w-full hover:bg-[var(--green-shadow)]"> CLAIM YOUR FREE TRIAL </button>
                   <p className="text-[var(--grayish-blue)] text-xs p-3">By clicking the button you are agreeing to our <a href="www.google.com" className="text-[var(--orange)]">Terms and services</a></p>
                 </form>
