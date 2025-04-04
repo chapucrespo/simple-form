@@ -16,10 +16,10 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${poppins.variable} antialiased flex flex-col h-screen justify-evenly w-80 m-auto p-2 text-center bg-[url(/bg-intro-mobile.png)]`}
+        className={`${poppins.variable} antialiased flex flex-col h-screen justify-evenly w-screen m-auto p-10 md:p-0 text-center bg-[url(/bg-intro-desktop.png)] bg-[#FF7A7A] bg-cover bg-center`}
       >
         {children}
-      <footer className="text-center">Challenge by <a href="https://www.frontendmentor.io/home">Frontend Mentor</a>. Coded by <a href="https://github.com/chapucrespo">Chapu Crespo</a></footer>
+      <footer className="text-center mt-4">Challenge by <a href="https://www.frontendmentor.io/home" className="text-[#6055A5]">Frontend Mentor</a>. Coded by <a href="https://github.com/chapucrespo" className="text-[#6055A5]">Chapu Crespo</a></footer>
       </body>
     </html>
   );

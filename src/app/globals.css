@@ -1,18 +1,21 @@
 @import "tailwindcss";
 
 :root {
-  --orange: hsl(0, 100%, 74%);
-  --green: hsl(154, 59%, 51%);
-  --blue: hsl(248, 32%, 49%);
-  --dark-blue:  hsl(249, 10%, 26%);
-  --grayish-blue: hsl(246, 25%, 77%);
+  --orange: rgb(255, 122, 122);
+  --green: rgb(56, 204, 140);
+  --blue: rgb(96, 85, 165);
+  --dark-blue:  rgb(62, 60, 73);
+  --blue-shadow: rgba(62, 60, 73, 0.3);
+  --green-shadow: rgb(57, 123, 90);
+  --grayish-blue: rgb(185, 182, 211);
   --white: #ffffff;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --color-green: var(--green);
+  --shadow: 0px 8px 0px 0px var(--blue-shadow);
+  --gshadow:  0px 3px 0px 0px var(--green-shadow);
 }
 
 /* @media (prefers-color-scheme: dark) {
@@ -23,30 +26,9 @@
 } */
 
 body {
-  background: var(--orange);
   color: var(--white);
   font-family: Poppins;
   font-size: 16px;
-
-  .big-div {
-    background-color: var(--blue);
-  }
-
-  .green-button {
-    background-color: var(--green);
-  }
-
-  .shadow {
-    box-shadow: 0px 8px 0px 0px rgba(66, 66, 66, 0.3);
-  }
-
-  .green-shadow {
-    box-shadow: 0px 3px 0px 0px rgba(60, 191, 125, 1);
-  }
-
-  a {
-    color: var(--blue);
-  }
 
   a, button { 
     cursor: pointer;
