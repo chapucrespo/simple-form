@@ -16,6 +16,12 @@
   --color-foreground: var(--foreground);
   --shadow: 0px 8px 0px 0px var(--blue-shadow);
   --gshadow:  0px 3px 0px 0px var(--green-shadow);
+  --orange: var(--orange);
+  --blue: var(--blue);
+  --dark-blue:  var(--dark-blue);
+  --blue-shadow: var(--blue-shadow);
+  --green-shadow: var(--green-shadow);
+  --grayish-blue: var(--grayish-blue);
 }
 
 /* @media (prefers-color-scheme: dark) {
